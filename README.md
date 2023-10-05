@@ -1,15 +1,23 @@
-# Air-Quality-Visualization-Station
+# Air Quality Visualization Dashboard :leaves:
+You can run this repository on website by clicking this link https://air-quality-visualization-station.streamlit.app/
 
-How to use Streamlit in 3 seconds:
+## OR
 
-    1. Write an app
-    >>> import streamlit as st
-    >>> st.write(anything_you_want)
-
-    2. Run your app
-    $ streamlit run my_script.py
-
-    3. Use your app
-    A new tab will open on your browser. That's your Streamlit app!
-
-    4. Modify your code, save it, and watch changes live on your browser.
+You can run it on your own environment
+## Setup environment
+### This project using python==3.9.2
+1. Clone this repository into your local
+```
+$ git clone https://github.com/iamfeizal/Air-Quality-Visualization-Station.git
+```
+2. Install the environment to run this app
+```
+$ pip install -r requirements.txt
+```
+## Run steamlit app
+Open your terminal or bash at your local repository, then enter this following command:
+```
+$ streamlit run dashboard/dashboard.py
+```
+## Use streamlit app
+A new tab will open on your browser. That's Streamlit app!
